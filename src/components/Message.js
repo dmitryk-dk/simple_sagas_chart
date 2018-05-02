@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Message = ({author, message}) => {
-    console.log(author, message);
     return (
         <p>
             <i>{author}</i>&nbsp;{message}

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Sidebar = ({users}) => {
-    console.log(users);
     return (
         <aside>
             <ul>
