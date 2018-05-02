@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-container {
+  display: flex;
+  height: 100vh;
+}
+
+.App-container > aside {
+  width: 30%;
+  border-right: 1px solid grey;
+}
+
+.App-holder {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.NewMessage-container {
+  border-top: 1px solid grey;
+}
+
+.MessagesList-container {
+  height: 90%;
+}
+
+.NewMessage-container {
+  height: 10%;
+}
+
+.NewMessage-container > input {
+  width: 100%;
+  height: 100%;
+}
